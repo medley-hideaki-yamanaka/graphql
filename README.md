@@ -1,24 +1,19 @@
-# README
+# GraphQLデモアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## version
+- ruby: 3.1
+- rails: 6.1
 
-Things you may want to cover:
+## 起動
+```bash
+docker-compose up -d
+```
 
-* Ruby version
+## 削除
+```bash
+docker-compose down
+```
 
-* System dependencies
+## GraphQL IDE
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://localhost:3000/grahpiql

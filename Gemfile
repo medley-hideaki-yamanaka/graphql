@@ -42,4 +42,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'graphql'
 group :development do
   gem 'graphiql-rails'
+  gem 'pry-rails'
 end

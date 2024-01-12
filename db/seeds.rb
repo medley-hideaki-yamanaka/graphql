@@ -5,3 +5,33 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Author.create!(
+  [
+    {
+      name: 'hoge',
+    },
+    {
+      name: 'fuga',
+    },
+    {
+      name: 'piyo',
+    }
+  ]
+)
+
+Post.create!(
+  [
+    {
+      title: 'title 1',
+      body: 'bodybody',
+    },
+    {
+      title: 'title 2',
+      body: 'bodybodybody',
+    },
+    {
+      title: 'title 3',
+      body: 'bodybodybodybody',
+    },
+  ]
+)
