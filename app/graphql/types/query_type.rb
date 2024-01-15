@@ -29,6 +29,8 @@ module Types
     end
 
     field :author, resolver: Resolvers::AuthorResolver
+    field :authors, resolver: Resolvers::AuthorsResolver
     field :post, resolver: Resolvers::PostResolver
+    field :posts, resolver: Resolvers::PostsResolver
   end
 end

@@ -23,15 +23,28 @@ Post.create!(
   [
     {
       title: 'title 1',
-      body: 'bodybody',
+      body: 'body 1',
+      author_id: 3,
     },
     {
       title: 'title 2',
-      body: 'bodybodybody',
+      body: 'body 2',
+      author_id: 1,
     },
     {
       title: 'title 3',
-      body: 'bodybodybodybody',
+      body: 'body 3',
+      author_id: 2,
+    },
+    {
+      title: 'title 4',
+      body: 'body 4',
+      author_id: 2,
+    },
+    {
+      title: 'title 5',
+      body: 'body 5',
+      author_id: 2,
     },
   ]
 )
