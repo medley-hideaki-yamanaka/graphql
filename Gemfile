@@ -44,3 +44,5 @@ group :development do
   gem 'graphiql-rails'
   gem 'pry-rails'
 end
+
+gem "graphql-batch"
